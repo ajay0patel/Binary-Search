@@ -46,7 +46,9 @@ int binarySearch(int arr[],int n,int ele){
         }
     }
 
-   
+   if(firstid==-1 && lastid==-1){
+       return -1;
+   }
 
     return lastid-firstid+1;
 
